@@ -1,0 +1,58 @@
+﻿body {
+    background-color: lightgray;
+}
+
+main {
+    background-color: lightpink;
+}
+
+header {
+    background-color: lightblue;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    font-size: 24px;
+}
+
+h2 {
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+h3 {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+h4 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+ol {
+    text-align: center;
+}
+
+aside h2 {
+    text-align: right;
+    background-color: teal;
+    color: lightsalmon;
+    text-decoration: none;
+}
+
+div {
+    text-align: center;
+}
+
+ul {
+    display: inline-block;
+    text-align: left
+}
+
+
+footer {
+    font-style: italic;
+}
