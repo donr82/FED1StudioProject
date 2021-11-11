@@ -10,4 +10,22 @@ header {
     background-color: lightblue;
 }
 
+footer {
+    font-style: italic;
+}
 
+aside h2 {
+    text-align: right;
+    background-color: teal;
+    color: lightsalmon;
+    text-decoration: none;
+}
+
+ul#asideKeywords {
+    text-align: right;
+    display: inline-block;
+}
+
+div {
+    text-align: right;
+}
