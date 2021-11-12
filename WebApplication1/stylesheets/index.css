@@ -1,4 +1,15 @@
-﻿body {
+﻿/*@import url('import.css');*/
+
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Nanum+Gothic+Coding&display=swap');
+
+/*
+font-family: 'Architects Daughter', cursive;
+font-family: 'Nanum Gothic Coding', monospace;
+*/
+
+
+
+body {
     background-color: lightgray;
 }
 
@@ -90,3 +101,21 @@ nav ul {
             padding: .4em 1 em;
             display: block;
         }
+main section h3 {
+    font-family: 'Architects Daughter', cursive;
+}
+#whychooseus {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+main section article h1 {
+    font-family: Papyrus, fantasy;
+}
+header h1 {
+    font-family: 'Nanum Gothic Coding', monospace;
+}
+header p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#whychooseus {
+    text-align: center;
+}
