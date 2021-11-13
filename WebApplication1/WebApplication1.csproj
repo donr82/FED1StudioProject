@@ -71,7 +71,7 @@
     <Content Include="Contact.html" />
     <Content Include="stylesheets\Classes.css" />
     <Content Include="stylesheets\contact.css" />
-    <Content Include="stylesheets\index.css" />
+    <Content Include="stylesheets\custom.css" />
     <Content Include="stylesheets\Team.css" />
     <Content Include="Team.html" />
     <Content Include="Classes.html" />
