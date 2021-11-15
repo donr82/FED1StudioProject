@@ -67,12 +67,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="images\diy logo-1161719853-612x612.jpg" />
+    <Content Include="images\farmhouse2.jpg" />
     <Content Include="index.html" />
     <Content Include="Contact.html" />
-    <Content Include="stylesheets\Classes.css" />
-    <Content Include="stylesheets\contact.css" />
     <Content Include="stylesheets\custom.css" />
-    <Content Include="stylesheets\Team.css" />
     <Content Include="Team.html" />
     <Content Include="Classes.html" />
     <Content Include="Web.config" />
@@ -90,7 +89,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="images\" />
     <Folder Include="scripts\" />
   </ItemGroup>
   <PropertyGroup>

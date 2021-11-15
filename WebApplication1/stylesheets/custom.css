@@ -10,15 +10,29 @@ font-family: 'Nanum Gothic Coding', monospace;
 
 
 body {
-    background-color: lightgray;
+    background: url(../images/farmhouse2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 main {
-    background-color: lightpink;
+    background-color: rgba(211, 211, 211, 0.9)
 }
 
-header {
-    background-color: lightblue;
+#headerOverlay {
+    background-image: url('../images/diy logo-1161719853-612x612.jpg');
+    background-repeat:no-repeat;
+    background-size: 90px;
+    background-position: 3% center;
+    padding: 2em;
+    background-color:black;
+}
+
+header h1, header p {
+    margin: 7px 0 7px 150px;
+    text-align: left;
+    letter-spacing: 0.1em;
+    color: white;
 }
 
 h1 {
@@ -49,8 +63,8 @@ ol {
 
 aside h2 {
     text-align: right;
-    background-color: teal;
-    color: lightsalmon;
+    background-color: black;
+    color: white;
     text-decoration: none;
 }
 
@@ -75,22 +89,27 @@ a {
 }
     nav a {
     font-weight: bold;
-    color: lightsalmon;
+    color: white;
 }
 
     nav a:hover, nav a:active, nav a:focus {
         text-decoration: none;
     }
-
+a:hover, a:active, a:focus {
+    color: black;
+    text-decoration: underline;
+    background-color: white;
+}
 nav ul {
-    background-color: teal;
+    background-color: black;
     padding: 0;
     border-top: 2px double darkgray;
     border-bottom: 2px double darkgray;
 }
 
     nav ul li:hover {
-        background-color: darkblue;
+        background-color: white;
+        color: black;
     }
 
     nav ul li {
@@ -98,7 +117,7 @@ nav ul {
     }
 
         nav ul li a {
-            padding: .4em 1 em;
+            padding: .4em 1em;
             display: block;
         }
 main section h3 {
