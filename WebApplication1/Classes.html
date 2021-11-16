@@ -36,14 +36,26 @@
     </nav>
 
     <main>
-        <section>
-
+        <aside id="classesRightColumn">
+            <h2>Classes</h2>
+            <div class="asidewrapper">
+                <ul class="asideList">
+                    <li><a href="#woodworking">Woodworking</a></li>
+                    <li><a href="#plumbing">Plumbing</a></li>
+                    <li><a href="#automotive">Automotive</a></li>
+                    <li><a href="#masonry">Masonry</a></li>
+                    <li><a href="#landscaping">Landscaping</a></li>
+                    <li><a href="#electrical">Electrical</a></li>
+                </ul>
+            </div>
+        </aside>
+        <section class="mainWrapper" id="classesLeftColumn">
             <h1>Class Subjects</h1>
 
             <article id="imageGallery">
 
                 <div class="galleryItem">
-                <h3>Wood Working</h3>
+                    <h3>Woodworking</h3>
                     <a href="images/woodworking.jpg" target="_blank">
                         <img src="images/woodworking.jpg"
                              alt="woodworking bench"
@@ -53,7 +65,7 @@
                 </div>
 
                 <div class="galleryItem">
-                <h3>Plumbing</h3>
+                    <h3>Plumbing</h3>
                     <a href="images/plumbing.jpg" target="_blank">
                         <img src="images/plumbing.jpg"
                              alt="man working on plumbing for sink"
@@ -63,7 +75,7 @@
                 </div>
 
                 <div class="galleryItem">
-                <h3>Automotive</h3>
+                    <h3>Automotive</h3>
                     <a href="images/automotive.jpg" target="_blank">
                         <img src="images/automotive.jpg"
                              alt="Person working on car engine"
@@ -73,7 +85,7 @@
                 </div>
 
                 <div class="galleryItem">
-                <h3>Masonry</h3>
+                    <h3>Masonry</h3>
                     <a href="images/masonry.jpg" target="_blank">
                         <img src="images/masonry.jpg"
                              alt="Person building brick wall"
@@ -83,7 +95,7 @@
                 </div>
 
                 <div class="galleryItem">
-                <h3>Landscaping</h3>
+                    <h3>Landscaping</h3>
                     <a href="images/landscaping.jpg" target="_blank">
                         <img src="images/landscaping.jpg"
                              alt="yard with wheel barrow filled with gardeing tools"
@@ -93,7 +105,7 @@
                 </div>
 
                 <div class="galleryItem">
-                <h3>Electrical</h3>
+                    <h3>Electrical</h3>
                     <a href="images/electrical.jpg" target="_blank">
                         <img src="images/electrical.jpg"
                              alt="Person installing wall outlet"
@@ -104,50 +116,200 @@
             </article>
         </section>
         <section>
-            <h1>Woodworking - Class List</h1>
-            <h4># - Class Name - Instructor - Meets</h4>
-            <div>
-                <ol>
-                    <li>Woodworking 101 Mr. Smith M-T 9-4</li>
-                    <li>Woodworking 102 Mr. Cass F 12-5</li>
-                    <li>Woodworking 103 Ms. Mack W-F 8-1</li>
-                </ol>
-                <h1>Plumbing - Class List</h1>
-                <h4># - Class Name - Instructor - Meets</h4>
-                <ol>
-                    <li>Plumbing 101 Mr. Smith M-T 9-4</li>
-                    <li>Plumbing 102 Mr. Cass F 12-5</li>
-                    <li>Plumbing 103 Ms. Mack W-F 8-1</li>
-                </ol>
-                <h1>Automotive - Class List</h1>
-                <h4># - Class Name - Instructor - Meets</h4>
-                <ol>
-                    <li>Cooking/Baking 101 Mr. Smith M-T 9-4</li>
-                    <li>Cooking/Baking 102 Mr. Cass F 12-5</li>
-                    <li>Cooking/Baking 103 Ms. Mack W-F 8-1</li>
-                </ol>
-                <h1>Masonry - Class List</h1>
-                <h4># - Class Name - Instructor - Meets</h4>
-                <ol>
-                    <li>Masonry 101 Mr. Smith M-T 9-4</li>
-                    <li>Masonry 102 Mr. Cass F 12-5</li>
-                    <li>Masonry 103 Ms. Mack W-F 8-1</li>
-                </ol>
-                <h1>Landscaping - Class List</h1>
-                <h4># - Class Name - Instructor - Meets</h4>
-                <ol>
-                    <li>Landscaping 101 Mr. Smith M-T 9-4</li>
-                    <li>Landscaping 102 Mr. Cass F 12-5</li>
-                    <li>Landscaping 103 Ms. Mack W-F 8-1</li>
-                </ol>
-                <h1>Electrical - Class List</h1>
-                <h4># - Class Name - Instructor - Meets</h4>
-                <ol>
-                    <li>Sewing 101 Mr. Smith M-T 9-4</li>
-                    <li>Sewing 102 Mr. Cass F 12-5</li>
-                    <li>Sewing 103 Ms. Mack W-F 8-1</li>
-                </ol>
-            </div>
+            <article>
+                <h1 id="woodworking">Woodworking - Class List</h1>
+                <table class="table">
+                    <thread>
+                        <tr>
+                            <th>#</th>
+                            <th>Class Name</th>
+                            <th>Instructor</th>
+                            <th>Meets</th>
+                        </tr>
+                    </thread>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Woodworking 101</td>
+                            <td>Mr. Smith</td>
+                            <td>M-T 9-4</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Woodworking 102</td>
+                            <td>Mr. Cass</td>
+                            <td>F 12-5</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Woodworking 103</td>
+                            <td>Ms. Mack</td>
+                            <td>W-F 8-1</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h1 id="plumbing">Plumbing - Class List</h1>
+                <table class="table">
+                    <thread>
+                        <tr>
+                            <th>#</th>
+                            <th>Class Name</th>
+                            <th>Instructor</th>
+                            <th>Meets</th>
+                        </tr>
+                    </thread>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Plumbing 101</td>
+                            <td>Mr. Smith</td>
+                            <td>M-T 9-4</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Plumbing 102</td>
+                            <td>Mr. Cass</td>
+                            <td>F 12-5</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Plumbing 103</td>
+                            <td>Ms. Mack</td>
+                            <td>W-F 8-1</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h1 id="automotive">Automotive - Class List</h1>
+                <table class="table">
+                    <thread>
+                        <tr>
+                            <th>#</th>
+                            <th>Class Name</th>
+                            <th>Instructor</th>
+                            <th>Meets</th>
+                        </tr>
+                    </thread>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Automotive 101</td>
+                            <td>Mr. Smith</td>
+                            <td>M-T 9-4</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Automotive 102</td>
+                            <td>Mr. Cass</td>
+                            <td>F 12-5</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Automotive 103</td>
+                            <td>Ms. Mack</td>
+                            <td>W-F 8-1</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h1 id="masonry">Masonry - Class List</h1>
+                <table class="table">
+                    <thread>
+                        <tr>
+                            <th>#</th>
+                            <th>Class Name</th>
+                            <th>Instructor</th>
+                            <th>Meets</th>
+                        </tr>
+                    </thread>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Masonry 101</td>
+                            <td>Mr. Smith</td>
+                            <td>M-T 9-4</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Masonry 102</td>
+                            <td>Mr. Cass</td>
+                            <td>F 12-5</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Masonry 103</td>
+                            <td>Ms. Mack</td>
+                            <td>W-F 8-1</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h1 id="landscaping">Landscaping - Class List</h1>
+                <table class="table">
+                    <thread>
+                        <tr>
+                            <th>#</th>
+                            <th>Class Name</th>
+                            <th>Instructor</th>
+                            <th>Meets</th>
+                        </tr>
+                    </thread>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Landscaping 101</td>
+                            <td>Mr. Smith</td>
+                            <td>M-T 9-4</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Landscaping 102</td>
+                            <td>Mr. Cass</td>
+                            <td>F 12-5</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Landscaping 103</td>
+                            <td>Ms. Mack</td>
+                            <td>W-F 8-1</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h1 id="electrical">Electrical - Class List</h1>
+                <table class="table">
+                    <thread>
+                        <tr>
+                            <th>#</th>
+                            <th>Class Name</th>
+                            <th>Instructor</th>
+                            <th>Meets</th>
+                        </tr>
+                    </thread>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Electrical 101</td>
+                            <td>Mr. Smith</td>
+                            <td>M-T 9-4</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Electrical 102</td>
+                            <td>Mr. Cass</td>
+                            <td>F 12-5</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Electrical 103</td>
+                            <td>Ms. Mack</td>
+                            <td>W-F 8-1</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </article>
         </section>
     </main>
     <p>

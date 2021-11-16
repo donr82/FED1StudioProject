@@ -20,7 +20,7 @@ main {
     background-color: rgba(211, 211, 211, 0.9);
 }
 
-footer{
+footer {
     background-color: rgba(211, 211, 211, 0.9);
 }
 
@@ -30,11 +30,11 @@ footer{
 
 #headerOverlay {
     background-image: url('../images/diy logo-1161719853-612x612.jpg');
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     background-size: 90px;
     background-position: 3% center;
     padding: 2em;
-    background-color:black;
+    background-color: black;
 }
 
 header h1, header p {
@@ -82,7 +82,6 @@ div {
 }
 
 ul {
-    display: inline-block;
     text-align: left
 }
 
@@ -92,11 +91,12 @@ footer {
 }
 
 a {
-    color: teal;
+    color: black;
     font-weight: bold;
     text-decoration: none;
 }
-    nav a {
+
+nav a {
     font-weight: bold;
     color: white;
 }
@@ -104,16 +104,26 @@ a {
     nav a:hover, nav a:active, nav a:focus {
         text-decoration: none;
     }
+
 a:hover, a:active, a:focus {
     color: black;
     text-decoration: underline;
     background-color: white;
 }
+
 nav ul {
     background-color: black;
     padding: 0;
     border-top: 2px double darkgray;
     border-bottom: 2px double darkgray;
+}
+
+nav ul {
+    min-height: 52px;
+    background-image: url('../images/navbar image.jpg');
+    background-repeat: repeat-x;
+    background-position: bottom;
+    background-size: 200px;
 }
 
     nav ul li:hover {
@@ -129,23 +139,33 @@ nav ul {
             padding: .4em 1em;
             display: block;
         }
+
 main section h3 {
     font-family: 'Montserrat', sans-serif;
 }
+
 #whychooseus {
     font-family: 'Montserrat', sans-serif;
 }
+
 main section article h1 {
     font-family: 'Montserrat', sans-serif;
 }
+
 header h1 {
     font-family: 'Spectral', serif;
 }
+
 header p {
     font-family: 'Spectral', serif;
 }
+
 #whychooseus {
     text-align: center;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
 }
 
 /*#region Image gallery */
@@ -160,15 +180,34 @@ div.galleryItem {
     div.galleryItem:hover {
         border: 1px solid black;
     }
-    div.gallery img {
-        width: 100%;
-        height: auto;
-    }
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
 
 #imageGallery {
     margin: 0 auto;
     width: 90%;
     text-align: center;
+}
+
+/*#endregion */
+
+/*#region Class Tables */
+td, th {
+    border: 1px solid #999;
+    padding: 0.5rem;
+    text-align: left;
+}
+
+th {
+    background-color: gray;
+}
+
+.table {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*#endregion */
