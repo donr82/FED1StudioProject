@@ -67,10 +67,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="favicon.ico" />
+    <Content Include="images\automotive.jpg" />
     <Content Include="images\diy logo-1161719853-612x612.jpg" />
+    <Content Include="images\electrical.jpg" />
     <Content Include="images\farmhouse2.jpg" />
-    <Content Include="images\plumber-icon-23.jpg" />
-    <Content Include="images\woodworking.png" />
+    <Content Include="images\landscaping.jpg" />
+    <Content Include="images\masonry.jpg" />
+    <Content Include="images\plumbing.jpg" />
+    <Content Include="images\woodworking.jpg" />
     <Content Include="index.html" />
     <Content Include="Contact.html" />
     <Content Include="stylesheets\custom.css" />

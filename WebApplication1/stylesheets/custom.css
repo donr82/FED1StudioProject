@@ -1,10 +1,10 @@
 ﻿/*@import url('import.css');*/
 
-@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Nanum+Gothic+Coding&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Spectral&display=swap');
 
 /*
-font-family: 'Architects Daughter', cursive;
-font-family: 'Nanum Gothic Coding', monospace;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Spectral', serif;
 */
 
 
@@ -13,10 +13,19 @@ body {
     background: url(../images/farmhouse2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 main {
-    background-color: rgba(211, 211, 211, 0.9)
+    background-color: rgba(211, 211, 211, 0.9);
+}
+
+footer{
+    background-color: rgba(211, 211, 211, 0.9);
+}
+
+#headerContact {
+    background-color: black;
 }
 
 #headerOverlay {
@@ -121,20 +130,45 @@ nav ul {
             display: block;
         }
 main section h3 {
-    font-family: 'Architects Daughter', cursive;
+    font-family: 'Montserrat', sans-serif;
 }
 #whychooseus {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family: 'Montserrat', sans-serif;
 }
 main section article h1 {
-    font-family: Papyrus, fantasy;
+    font-family: 'Montserrat', sans-serif;
 }
 header h1 {
-    font-family: 'Nanum Gothic Coding', monospace;
+    font-family: 'Spectral', serif;
 }
 header p {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Spectral', serif;
 }
 #whychooseus {
     text-align: center;
 }
+
+/*#region Image gallery */
+
+div.galleryItem {
+    margin: 5px;
+    border: 1px solid black;
+    display: inline-block;
+    width: 350px;
+}
+
+    div.galleryItem:hover {
+        border: 1px solid black;
+    }
+    div.gallery img {
+        width: 100%;
+        height: auto;
+    }
+
+#imageGallery {
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+}
+
+/*#endregion */
