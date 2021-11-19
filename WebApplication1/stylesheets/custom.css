@@ -91,7 +91,7 @@ footer {
 }
 
 a {
-    color: black;
+    color: teal;
     font-weight: bold;
     text-decoration: none;
 }
@@ -118,14 +118,6 @@ nav ul {
     border-bottom: 2px double darkgray;
 }
 
-nav ul {
-    min-height: 52px;
-    background-image: url('../images/navbar image.jpg');
-    background-repeat: repeat-x;
-    background-position: bottom;
-    background-size: 200px;
-}
-
     nav ul li:hover {
         background-color: white;
         color: black;
@@ -140,8 +132,13 @@ nav ul {
             display: block;
         }
 
+main p {
+    padding: 10px;
+}
+
 main section h3 {
     font-family: 'Montserrat', sans-serif;
+    padding: 10px;
 }
 
 #whychooseus {
@@ -162,10 +159,6 @@ header p {
 
 #whychooseus {
     text-align: center;
-}
-
-p {
-    font-family: 'Montserrat', sans-serif;
 }
 
 /*#region Image gallery */
@@ -194,20 +187,35 @@ div.gallery img {
 
 /*#endregion */
 
-/*#region Class Tables */
-td, th {
-    border: 1px solid #999;
-    padding: 0.5rem;
-    text-align: left;
+/*#region Float Images */
+
+#aboutUs {
+    float: left;
+    height: 180px;
+    margin-right: 20px;
 }
 
-th {
-    background-color: gray;
+#testimonial1 {
+    float: right;
+    height: 200px;
+    margin-left: 20px;
+    padding: 10px;
 }
 
-.table {
-    margin-left: auto;
-    margin-right: auto;
+#testimonial2 {
+    float: left;
+    height: 200px;
+    margin-right: 20px;
+    padding: 10px;
 }
+
+#whyChooseUs section:nth-child(odd) h3, #whyChooseUs section:nth-child(even) h3 {
+    margin: 10px 75px;
+}
+
+#whyChooseUs section:nth-child(even) p, #whyChooseUs section:nth-child(odd) p {
+    margin: 0 75px;
+}
+
 
 /*#endregion */

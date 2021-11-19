@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="favicon.ico" />
+    <Content Include="images\About Us 2.jpg" />
     <Content Include="images\automotive.jpg" />
     <Content Include="images\diy logo-1161719853-612x612.jpg" />
     <Content Include="images\electrical.jpg" />
@@ -76,6 +77,9 @@
     <Content Include="images\masonry.jpg" />
     <Content Include="images\navbar image.jpg" />
     <Content Include="images\plumbing.jpg" />
+    <Content Include="images\testimonial img 1.png" />
+    <Content Include="images\testimonial-student.jpg" />
+    <Content Include="images\why choose us.jpg" />
     <Content Include="images\woodworking.jpg" />
     <Content Include="index.html" />
     <Content Include="Contact.html" />
