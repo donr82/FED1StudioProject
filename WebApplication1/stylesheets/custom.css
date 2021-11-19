@@ -20,7 +20,7 @@ main {
     background-color: rgba(211, 211, 211, 0.9);
 }
 
-footer{
+footer {
     background-color: rgba(211, 211, 211, 0.9);
 }
 
@@ -30,11 +30,11 @@ footer{
 
 #headerOverlay {
     background-image: url('../images/diy logo-1161719853-612x612.jpg');
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     background-size: 90px;
     background-position: 3% center;
     padding: 2em;
-    background-color:black;
+    background-color: black;
 }
 
 header h1, header p {
@@ -82,7 +82,6 @@ div {
 }
 
 ul {
-    display: inline-block;
     text-align: left
 }
 
@@ -96,7 +95,8 @@ a {
     font-weight: bold;
     text-decoration: none;
 }
-    nav a {
+
+nav a {
     font-weight: bold;
     color: white;
 }
@@ -104,11 +104,13 @@ a {
     nav a:hover, nav a:active, nav a:focus {
         text-decoration: none;
     }
+
 a:hover, a:active, a:focus {
     color: black;
     text-decoration: underline;
     background-color: white;
 }
+
 nav ul {
     background-color: black;
     padding: 0;
@@ -129,21 +131,32 @@ nav ul {
             padding: .4em 1em;
             display: block;
         }
+
+main p {
+    padding: 10px;
+}
+
 main section h3 {
     font-family: 'Montserrat', sans-serif;
+    padding: 10px;
 }
+
 #whychooseus {
     font-family: 'Montserrat', sans-serif;
 }
+
 main section article h1 {
     font-family: 'Montserrat', sans-serif;
 }
+
 header h1 {
     font-family: 'Spectral', serif;
 }
+
 header p {
     font-family: 'Spectral', serif;
 }
+
 #whychooseus {
     text-align: center;
 }
@@ -160,15 +173,49 @@ div.galleryItem {
     div.galleryItem:hover {
         border: 1px solid black;
     }
-    div.gallery img {
-        width: 100%;
-        height: auto;
-    }
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
 
 #imageGallery {
     margin: 0 auto;
     width: 90%;
     text-align: center;
 }
+
+/*#endregion */
+
+/*#region Float Images */
+
+#aboutUs {
+    float: left;
+    height: 180px;
+    margin-right: 20px;
+}
+
+#testimonial1 {
+    float: right;
+    height: 200px;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+#testimonial2 {
+    float: left;
+    height: 200px;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+#whyChooseUs section:nth-child(odd) h3, #whyChooseUs section:nth-child(even) h3 {
+    margin: 10px 75px;
+}
+
+#whyChooseUs section:nth-child(even) p, #whyChooseUs section:nth-child(odd) p {
+    margin: 0 75px;
+}
+
 
 /*#endregion */
