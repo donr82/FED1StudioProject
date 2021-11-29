@@ -91,7 +91,7 @@ footer {
 }
 
 a {
-    color: teal;
+    color: black;
     font-weight: bold;
     text-decoration: none;
 }
@@ -118,6 +118,14 @@ nav ul {
     border-bottom: 2px double darkgray;
 }
 
+nav ul {
+    min-height: 52px;
+    background-image: url('../images/navbar image.jpg');
+    background-repeat: repeat-x;
+    background-position: bottom;
+    background-size: 200px;
+}
+
     nav ul li:hover {
         background-color: white;
         color: black;
@@ -131,6 +139,7 @@ nav ul {
             padding: .4em 1em;
             display: block;
         }
+
 
 main p {
     padding: 10px;
@@ -159,6 +168,10 @@ header p {
 
 #whychooseus {
     text-align: center;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
 }
 
 /*#region Image gallery */
@@ -217,5 +230,24 @@ div.gallery img {
     margin: 0 75px;
 }
 
+
+/*#endregion */
+/*#endregion */
+
+/*#region Class Tables */
+td, th {
+    border: 1px solid #999;
+    padding: 0.5rem;
+    text-align: left;
+}
+
+th {
+    background-color: gray;
+}
+
+.table {
+    margin-left: auto;
+    margin-right: auto;
+}
 
 /*#endregion */
