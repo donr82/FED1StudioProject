@@ -119,7 +119,6 @@ nav ul {
 }
 
 nav ul {
-    min-height: 52px;
     background-image: url('../images/navbar image.jpg');
     background-repeat: repeat-x;
     background-position: bottom;
