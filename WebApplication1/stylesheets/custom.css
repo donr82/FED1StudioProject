@@ -7,6 +7,53 @@ font-family: 'Montserrat', sans-serif;
 font-family: 'Spectral', serif;
 */
 
+.active {
+    background: gray;   
+    color: white;
+}
+
+nav a {
+    font-weight: bold;
+    color: white;
+}
+
+    nav a:hover {
+        text-decoration: none;
+    }
+
+a:hover, a:focus {
+    color: black;
+    text-decoration: underline;
+    background-color: gray;
+}
+
+nav ul {
+    background-color: black;
+    padding: 0;
+    border-top: 2px double darkgray;
+    border-bottom: 2px double darkgray;
+}
+
+nav ul {
+    background-image: url('../images/navbar image.jpg');
+    background-repeat: repeat-x;
+    background-position: bottom;
+    background-size: 200px;
+}
+
+    nav ul li:hover {
+        background-color: white;
+        color: white;
+    }
+
+    nav ul li {
+        display: inline-block;
+    }
+
+        nav ul li a {
+            padding: .4em 1em;
+            display: block;
+        }
 
 
 body {
@@ -71,7 +118,7 @@ ol {
 }
 
 aside h2 {
-    text-align: right;
+    text-align: left;
     background-color: black;
     color: white;
     text-decoration: none;
@@ -95,49 +142,6 @@ a {
     font-weight: bold;
     text-decoration: none;
 }
-
-nav a {
-    font-weight: bold;
-    color: white;
-}
-
-    nav a:hover, nav a:active, nav a:focus {
-        text-decoration: none;
-    }
-
-a:hover, a:active, a:focus {
-    color: black;
-    text-decoration: underline;
-    background-color: white;
-}
-
-nav ul {
-    background-color: black;
-    padding: 0;
-    border-top: 2px double darkgray;
-    border-bottom: 2px double darkgray;
-}
-
-nav ul {
-    background-image: url('../images/navbar image.jpg');
-    background-repeat: repeat-x;
-    background-position: bottom;
-    background-size: 200px;
-}
-
-    nav ul li:hover {
-        background-color: white;
-        color: black;
-    }
-
-    nav ul li {
-        display: inline-block;
-    }
-
-        nav ul li a {
-            padding: .4em 1em;
-            display: block;
-        }
 
 
 main p {
@@ -208,14 +212,14 @@ div.gallery img {
 }
 
 #testimonial1 {
-    float: right;
+    float: left;
     height: 200px;
     margin-left: 20px;
-    padding: 10px;
+    padding: 10px;    
 }
 
 #testimonial2 {
-    float: left;
+    float: right;
     height: 200px;
     margin-right: 20px;
     padding: 10px;
@@ -231,7 +235,7 @@ div.gallery img {
 
 
 /*#endregion */
-/*#endregion */
+
 
 /*#region Class Tables */
 td, th {
@@ -248,5 +252,64 @@ th {
     margin-left: auto;
     margin-right: auto;
 }
+
+/*#endregion */
+
+/*#region side nav bar */
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1030;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .9);
+    overflow-x: hidden;
+    padding-top: 100px;
+    transition: .5s;
+}
+
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: .3s;
+    }
+
+        .sidenav a:hover {
+            color: #f1f1f1;
+        }
+
+.close-btn {
+    position: absolute;
+    top: 50px;
+    right: 25px;
+    font-size: 36px !important;
+    margin-left: 50px;
+}
+
+.button {
+    font-family: sans-serif;
+    background: rgba(0, 0, 0, .5);
+    height: 100%;
+    width: 20px;
+    z-index: 1030;
+    position: fixed;
+    left: 0;
+    top: 0;
+    cursor: pointer;
+}
+
+.vertical-text {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    writing-mode: vertical-rl;
+    color: white;
+    font-weight: bold;
+}
+
 
 /*#endregion */

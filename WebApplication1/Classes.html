@@ -18,12 +18,12 @@
             <p>So Easy Even You Can Do It</p>
         </div>
     </header>
-    <nav>
+    <nav class="navbar-main">
         <ul>
             <li>
                 <a href="index.html">Home</a>
             </li>
-            <li>
+            <li class="active">
                 <a href="Classes.html">Classes</a>
             </li>
             <li>
@@ -37,7 +37,7 @@
 
     <main>
         <aside id="classesRightColumn">
-            <h2>Classes</h2>
+            <!--<h2>Classes</h2>
             <div class="asidewrapper">
                 <ul class="asideList">
                     <li><a href="#woodworking">Woodworking</a></li>
@@ -47,7 +47,7 @@
                     <li><a href="#landscaping">Landscaping</a></li>
                     <li><a href="#electrical">Electrical</a></li>
                 </ul>
-            </div>
+            </div>-->
         </aside>
         <section class="mainWrapper" id="classesLeftColumn">
             <h1>Class Subjects</h1>
@@ -316,5 +316,34 @@
         <a href="#">Go To Top</a>
     </p>
     <footer> &copy; Don Richardson 2021</footer>
+
+    <div id="admin-btn" class="button" onclick="openAdminNav()">
+        <span class="vertical-text">CLASSES</span>
+    </div>
+
+    <div id="admin-nav" class="sidenav">
+        <a href="javascript:void(0)" class="close-btn" onclick="closeAdminNav()">&times;</a>
+
+        <a href="#woodworking">Woodworking</a>
+        <a href="#plumbing">Plumbing</a>
+        <a href="#automotive">Automotive</a>
+        <a href="#masonry">Masonry</a>
+        <a href="#landscaping">Landscaping</a>
+        <a href="#electrical">Electrical</a>
+        <a href="#">Go To Top</a>
+    </div>
+
+    <!-- Toggle Admin Menu -->
+    <script type="text/javascript">
+        function openAdminNav() {
+            document.getElementById('admin-btn').style.display = "none";
+            document.getElementById('admin-nav').style.width = "250px";
+        }
+
+        function closeAdminNav() {
+            document.getElementById('admin-btn').style.display = "block";
+            document.getElementById('admin-nav').style.width = "0";
+        }
+    </script>
 </body>
 </html>

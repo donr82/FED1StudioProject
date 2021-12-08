@@ -83,6 +83,7 @@
     <Content Include="images\woodworking.jpg" />
     <Content Include="index.html" />
     <Content Include="Contact.html" />
+    <Content Include="js\JavaScript.js" />
     <Content Include="stylesheets\custom.css" />
     <Content Include="Team.html" />
     <Content Include="Classes.html" />
