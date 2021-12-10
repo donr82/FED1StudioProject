@@ -2,6 +2,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Spectral&display=swap');
 
+
+
 /*
 font-family: 'Montserrat', sans-serif;
 font-family: 'Spectral', serif;
@@ -61,6 +63,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    clear: both;
 }
 
 main {
@@ -69,10 +72,21 @@ main {
 
 footer {
     background-color: rgba(211, 211, 211, 0.9);
+    clear: both;
+    font-style: italic;
 }
 
 #headerContact {
     background-color: black;
+
+}
+
+#headerContact h1 {
+    text-align: center;
+}
+
+#listContact {
+    text-align: center;
 }
 
 #headerOverlay {
@@ -133,10 +147,6 @@ ul {
 }
 
 
-footer {
-    font-style: italic;
-}
-
 a {
     color: black;
     font-weight: bold;
@@ -187,7 +197,7 @@ div.galleryItem {
 }
 
     div.galleryItem:hover {
-        border: 1px solid black;
+        border: 1px solid white;
     }
 
 div.gallery img {
@@ -201,6 +211,7 @@ div.gallery img {
     text-align: center;
 }
 
+
 /*#endregion */
 
 /*#region Float Images */
@@ -209,34 +220,100 @@ div.gallery img {
     float: left;
     height: 180px;
     margin-right: 20px;
+    padding: 10px;
+}
+
+#aboutUsText {   
+    padding: 50px;
 }
 
 #testimonial1 {
     float: left;
-    height: 200px;
+    height: 300px;
     margin-left: 20px;
-    padding: 10px;    
+    padding: 10px;
+}
+
+#firstTestimonialText {
+    margin: 0 75px;
+}
+
+#secondTestimonialText {
+    margin: 0 75px;
 }
 
 #testimonial2 {
     float: right;
-    height: 200px;
-    margin-right: 20px;
+    height: 300px;
+    margin-right: 100px;
     padding: 10px;
 }
 
+#testimonialTwoHeader {
+    text-align: right;
+}
+
+#testimonialOneHeader {
+    text-align: left; 
+}
+
+.clearfix {
+    overflow: auto;
+}
+#clearfix {
+    overflow: auto;
+}
+
+
 #whyChooseUs section:nth-child(odd) h3, #whyChooseUs section:nth-child(even) h3 {
-    margin: 10px 75px;
+    margin: 0 75px;
 }
 
 #whyChooseUs section:nth-child(even) p, #whyChooseUs section:nth-child(odd) p {
     margin: 0 75px;
 }
 
+#teamProfilePicOne {
+    float: left;
+    padding: 10px;    
+    height: 200px;
+    border-radius: 50%;
 
+}
+
+#teamProfilePicTwo {
+    float: left;
+    padding: 10px;
+    border-radius: 50%;
+    clear: left;
+}
+
+#teamProfilePicThree {
+    float: left;
+    padding: 10px;
+    border-radius: 50%;
+    clear: left;
+}
+
+#leadershipHeader {
+    text-align: center;
+    padding: 10px;
+}
+
+.fa {
+    float: right;
+}
+
+#leftColumn {
+    width: 73%;
+    border-right: 1px dashed black;
+}
+
+#rightColumn {
+    width: 25%;
+    float: right;
+}
 /*#endregion */
-
-
 /*#region Class Tables */
 td, th {
     border: 1px solid #999;

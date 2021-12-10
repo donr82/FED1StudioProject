@@ -5,15 +5,20 @@
     <meta charset="utf-8" />
     <meta name="description" content="FED1 Studio Project for small business site design using HTML & CSS" />
     <meta name="keywords" content="DIY, team, contact, classes" />
-    <meta name="author" content="Don Richardson" />
+    <meta name="Home Page" content="Don Richardson" />
 
     <link href="stylesheets/custom.css" rel="stylesheet" />
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/favicon.icon">
+    <script src="https://use.fontawesome.com/69d56a8885.js"></script>
+
 </head>
 <body>
     <header>
         <div id="headerOverlay">
+            <i class="fa fa-facebook-square" aria-hidden="true" style="color:gray; font-size:48px; padding:10px" id="clearfix"></i> 
+            <i class="fa fa-twitter-square" aria-hidden="true" style="color:gray; font-size:48px; padding:10px" id="clearfix"></i>
+            <i class="fa fa-instagram" aria-hidden="true" style="color:gray; font-size:48px; padding:10px" id="clearfix"></i>
             <h1>DIY University</h1>
             <p>So Easy Even You Can Do It</p>
         </div>
@@ -39,26 +44,43 @@
             <section>
                 <img src="images/About Us 2.jpg" alt="About Us sign with multiple people putting hands in the middle" title="About Us" id="aboutUs" />
                 <h3>About Us</h3>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pellentesque massa placerat duis ultricies lacus sed. Nisi vitae suscipit tellus mauris a diam maecenas. Senectus et netus et malesuada fames. Pellentesque habitant morbi tristique senectus et netus. Auctor eu augue ut lectus arcu. In aliquam sem fringilla ut morbi tincidunt augue. Nec ullamcorper sit amet risus nullam eget felis eget. Lorem ipsum dolor sit amet. Ullamcorper a lacus vestibulum sed arcu. Quisque egestas diam in arcu cursus euismod. Etiam non quam lacus suspendisse. Eget arcu dictum varius duis at consectetur lorem. Amet dictum sit amet justo.
+                <p id="aboutUsText">
+                    Welcome to DIY University, your number one source for all things DIY. We're dedicated to giving you the very best of our classes, with a focus on rolling up your sleeves and having the satisfaction that you accomplished a porject on your own
+                    Founded in 2019 by Tony Stark, DIY UNiversity has come a long way from its beginnings in a cave out in Asia. When Tony Stark first started out, her passion for building and creating for himself drove him to doing the same for others, and gave him the impetus to turn hard work and inspiration into to a booming online university. We now serve customers all over the United States, and are thrilled to be a part of the DIY wing of the online school industry.
+
+                    We hope you enjoy our products as much as we enjoy offering them to you. If you have any questions or comments, please don't hesitate to contact us.
+
+                    Sincerely,
+                    Tony Stark, President
                 </p>
             </section>
+            <h1>Why Choose Us</h1>
             <section id="whyChooseUs">
-                <img src="images/testimonial img 1.png" alt="Image of woman looking at camera" title="Testimonial 1" id="testimonial1" />
-                <h1>Why Choose Us</h1>
-                <h3>Jane Doe</h3>
-                <p>
-                    sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet consectetur adipiscing elit ut aliquam. Congue mauris rhoncus aenean vel elit scelerisque mauris. Urna nec tincidunt praesent semper feugiat. Diam maecenas ultricies mi eget mauris pharetra et ultrices. Urna cursus eget nunc scelerisque viverra.
-                </p>
-                <img src="images/testimonial-student.jpg" alt="image of man smiling at camera" title="Testimonial 2" id="testimonial2" />
-                <h3>John Doe</h3>
-                <p>
-                    sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet consectetur adipiscing elit ut aliquam. Congue mauris rhoncus aenean vel elit scelerisque mauris. Urna nec tincidunt praesent semper feugiat. Diam maecenas ultricies mi eget mauris pharetra et ultrices. Urna cursus eget nunc scelerisque viverra.
-                </p>
+                <div>
+                    <img src="images/testimonial img 1.png" alt="Image of woman looking at camera" title="Testimonial 1" id="testimonial1" />
+                    <h3 id="testimonialOneHeader">Jane Doe</h3>
+                    <p id="firstTestimonialText">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pellentesque massa placerat duis ultricies lacus sed. Nisi vitae suscipit tellus mauris a diam maecenas. Senectus et netus et malesuada fames. Pellentesque habitant morbi tristique senectus et netus. Auctor eu augue ut lectus arcu. In aliquam sem fringilla ut morbi tincidunt augue. Nec ullamcorper sit amet risus nullam eget felis eget. Lorem ipsum dolor sit amet. Ullamcorper a lacus vestibulum sed arcu. Quisque egestas diam in arcu cursus euismod. Etiam non quam lacus suspendisse. Eget arcu dictum varius duis at consectetur lorem. Amet dictum sit amet justo.
+                    </p>
+                </div>
+
+                <div class="clearfix">
+                    <img src="images/testimonial-student.jpg" alt="image of man smiling at camera" title="Testimonial 2" id="testimonial2" />
+                    <h3 id="testimonialTwoHeader">John Doe</h3>
+                    <p id="secondTestimonialTExt">
+                        sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet consectetur adipiscing elit ut aliquam. Congue mauris rhoncus aenean vel elit scelerisque mauris. Urna nec tincidunt praesent semper feugiat. Diam maecenas ultricies mi eget mauris pharetra et ultrices. Urna cursus eget nunc scelerisque viverra.
+                    </p>
+                </div>
             </section>
         </article>
     </main>
-    <footer> &copy; Don Richardson 2021</footer>
+    <br/>
+    <footer>
+        &copy; Don Richardson 2021
+        <i class="fa fa-facebook-square" aria-hidden="true" style="color:gray; font-size:15px; padding:10px" id="clearfix"></i>
+        <i class="fa fa-twitter-square" aria-hidden="true" style="color:gray; font-size:15px; padding:10px" id="clearfix"></i>
+        <i class="fa fa-instagram" aria-hidden="true" style="color:gray; font-size:15px; padding:10px" id="clearfix"></i>
+    </footer>
 
 </body>
 </html>
